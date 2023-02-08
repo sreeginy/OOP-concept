@@ -17,8 +17,11 @@ public class Main {
 
         Student[] students = new Student[5];
 
-        Student Sreeginy;
-        System.out.println(Arrays.toString(students));
+        // Just declaring
+//        Student Sreeginy;
+////        System.out.println(Arrays.toString(students));
+//        Sreeginy = new Student();
+        Student Sreeginy = new Student();
 
     }
 }
