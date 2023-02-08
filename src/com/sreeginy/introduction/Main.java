@@ -1,5 +1,7 @@
 package com.sreeginy.introduction;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //store 5 roll numbers
@@ -15,7 +17,8 @@ public class Main {
 
         Student[] students = new Student[5];
 
-        Student[] Sreeginy;
+        Student Sreeginy;
+        System.out.println(Arrays.toString(students));
 
     }
 }
