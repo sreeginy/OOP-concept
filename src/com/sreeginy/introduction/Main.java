@@ -39,4 +39,8 @@ public class Main {
         int rollno;
         String name;
         float marks;
+
+        Student() {
+            
+        }
     }
