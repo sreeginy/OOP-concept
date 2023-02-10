@@ -23,6 +23,10 @@ public class Main {
 //        Sreeginy = new Student();
         Student Sreeginy = new Student();
 
+        System.out.println(Sreeginy.rollno);
+        System.out.println(Sreeginy.marks);
+        System.out.println(Sreeginy.name);
+
     }
 }
     //class create
