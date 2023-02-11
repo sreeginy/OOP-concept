@@ -2,7 +2,7 @@ package studentDetails;
 
 import java.util.Scanner;
 
-// return keyword used
+// return keyword used in java
 public class student2 {
     int ID;
     String name;
