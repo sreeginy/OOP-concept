@@ -41,6 +41,6 @@ public class Main {
         float marks;
 
         Student() {
-            
+
         }
     }
