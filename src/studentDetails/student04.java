@@ -13,3 +13,11 @@ public class student04 {
         System.out.println("Name : " + this.Name);
     }
 }
+
+class mainstudent04{
+    public static void main(String[] args) {
+        student04 s;
+        s = new student04(1000,"Giny");
+        s.display();
+    }
+}
