@@ -21,3 +21,5 @@ class mainstudent04{
         s.display();
     }
 }
+
+// student(int ID, String Name) - Parameterized method
