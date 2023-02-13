@@ -1,11 +1,22 @@
 package Inheritance;
 
-public class singleInheritance {
+public class single {
     int x;
-    singleInheritance() {
+    single() {
         this.x = 10;
     }
     void getx() {
         System.out.println("A" + this.x);
     }
 }
+
+class Inheritance {
+    int y;
+    Inheritance() {
+        this.y = 10;
+    }
+    void gety() {
+        System.out.println("B" + this.y);
+    }
+}
+
