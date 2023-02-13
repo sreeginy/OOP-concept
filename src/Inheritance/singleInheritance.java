@@ -1,6 +1,6 @@
 package Inheritance;
 
-public class single {
+ class single {
     int x;
     single() {
         this.x = 10;
@@ -20,3 +20,13 @@ class Inheritance {
     }
 }
 
+class singleInheritance {
+    public static void main(String[] args) {
+        single a = new single();
+        a.getx();
+
+        Inheritance b = new Inheritance();
+        b.gety();
+    }
+
+}
