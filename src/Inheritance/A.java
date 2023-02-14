@@ -19,3 +19,11 @@ class B extends  A {
         System.out.println(" B : " + this.y);
     }
 }
+
+class AB {
+    public static void main(String[] args) {
+        B b = new B();
+        b.gety();
+        b.getx();
+    }
+}
