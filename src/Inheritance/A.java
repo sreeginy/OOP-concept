@@ -13,7 +13,7 @@ public class A {
 class B extends  A {
     int y;
     B() {
-        this.y = 10;
+        this.y = 12;
     }
     void gety() {
         System.out.println(" B : " + this.y);
