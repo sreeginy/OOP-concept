@@ -18,4 +18,14 @@ class  B1 extends A1{
     void gety() {
         System.out.println("B1 : " + this.y);
     }
-        }
+}
+
+class C1 extends B1 {
+    int z;
+    C1() {
+        this.z = 60;
+    }
+    void getz() {
+        System.out.println(" C1 : " + this.z);
+    }
+}
