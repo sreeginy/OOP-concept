@@ -26,6 +26,16 @@ class C1 extends B1 {
         this.z = 60;
     }
     void getz() {
-        System.out.println(" C1 : " + this.z);
+        System.out.println("C1 : " + this.z);
+    }
+}
+
+class A1B1C1 {
+    public static void main(String[] args) {
+        C1 c = new C1();
+
+        c.getx();
+        c.gety();
+        c.getz();
     }
 }
