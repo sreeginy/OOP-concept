@@ -34,4 +34,14 @@ class C2 extends B2 {
     }
 }
 
+class A2B2C2 {
+    public static void main(String[] args) {
+        C2 c = new C2(10,6,8);
+
+        c.getx();
+        c.gety();
+        c.getz();
+    }
+}
+
 
