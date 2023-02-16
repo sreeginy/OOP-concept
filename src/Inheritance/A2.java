@@ -22,3 +22,16 @@ class B2 extends  A2 {
       System.out.println("B2 : " + this.y);
   }
 }
+
+class C2 extends B2 {
+    int z;
+    C2(int x, int y, int z) {
+        super(y,z);
+        this.z=z;
+    }
+    void getz() {
+        System.out.println("C2 : " + this.z);
+    }
+}
+
+
