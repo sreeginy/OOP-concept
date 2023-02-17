@@ -6,7 +6,7 @@ public class A2 {
        this.x = x;
    }
    void getx() {
-       System.out.println("A2 : " + this.x);
+       System.out.println("Multi level Inheritance A2 : " + this.x);
    }
 
 }
@@ -19,7 +19,7 @@ class B2 extends  A2 {
       this.y = y;
   }
   void gety() {
-      System.out.println("B2 : " + this.y);
+      System.out.println("Multi level Inheritance B2 : " + this.y);
   }
 }
 
@@ -30,7 +30,7 @@ class C2 extends B2 {
         this.z=z;
     }
     void getz() {
-        System.out.println("C2 : " + this.z);
+        System.out.println("Multi level Inheritance C2 : " + this.z);
     }
 }
 
