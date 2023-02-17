@@ -6,7 +6,7 @@ public class A3 {
         this.x = 10;
     }
     void getx() {
-        System.out.println("A3 : " + this.x);
+        System.out.println("Hierarchical A3 : " + this.x);
     }
 }
 
@@ -16,7 +16,7 @@ class B3 extends A3 {
         this.y = 19;
     }
     void gety() {
-        System.out.println("B3 : " + this.y);
+        System.out.println("Hierarchical B3 : " + this.y);
     }
 }
 
@@ -26,7 +26,7 @@ class C3 extends A3 {
         this.z = 60;
     }
     void getz() {
-        System.out.println("C3 : " + this.z);
+        System.out.println("Hierarchical C3 : " + this.z);
     }
 }
 
