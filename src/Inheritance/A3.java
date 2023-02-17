@@ -29,3 +29,14 @@ class C3 extends A3 {
         System.out.println("C3 : " + this.z);
     }
 }
+
+class A3B3C3 {
+    public static void main(String[] args) {
+        C3 c = new C3();
+        B3 b = new B3();
+
+        c.getx();
+        b.gety();
+        c.getz();
+    }
+}
