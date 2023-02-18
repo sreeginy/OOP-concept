@@ -9,3 +9,14 @@ public class A4 {
         System.out.println("A4 : " + this.x);
     }
 }
+
+class B4 {
+    int y ;
+    B4(int y, int x) {
+        super();
+        this.y = y;
+    }
+    void gety() {
+        System.out.println("B4 : " + this.y);
+    }
+}
