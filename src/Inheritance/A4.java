@@ -20,3 +20,15 @@ class B4 {
         System.out.println("B4 : " + this.y);
     }
 }
+
+class C4 extends A4 {
+    int z;
+    C4(int x, int z) {
+        super(x);
+        this.z = z;
+    }
+    void getz() {
+        System.out.println("C4 : " + this.z);
+    }
+
+}
