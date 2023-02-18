@@ -33,3 +33,13 @@ class C4 extends A4 {
 
 }
 
+class A4B4C4 {
+    public static void main(String[] args) {
+        C4 c = new C4(50,80);
+        B4 b = new B4(20,0);
+
+        c.getx();
+        b.gety();
+        c.getz();
+    }
+}
