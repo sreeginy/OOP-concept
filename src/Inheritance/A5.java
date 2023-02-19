@@ -18,6 +18,13 @@ class B5 {
     }
     void display() {
         System.out.println("B5 : " + this.y);
-        super.dispaly();
+        super.display();
+    }
+}
+
+class A5B5 {
+    public static void main(String[] args) {
+        B5 b = new B5(10,5);
+        b.display();
     }
 }
