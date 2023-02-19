@@ -9,3 +9,15 @@ public class A5 {
         System.out.println("A5 : " + this.x);
     }
 }
+
+class B5 {
+    int y;
+    B5(int y, int x) {
+        super();
+        this.y = y;
+    }
+    void display() {
+        System.out.println("B5 : " + this.y);
+        super.dispaly();
+    }
+}
