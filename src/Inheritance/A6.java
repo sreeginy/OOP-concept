@@ -16,3 +16,10 @@ public class A6 {
         System.out.println("A6 : " + this.y);
     }
 }
+
+class  mainA6 {
+    public static void main(String[] args) {
+        A6  a = new A6(5);
+        a.getx();
+    }
+}
