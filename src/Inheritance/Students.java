@@ -4,12 +4,22 @@ public class Students {
     int id;
     String name;
 
-    void setstudents() {
+    void setStudents() {
         this.id = 1000;
         this.name = "Giny";
 
     }
-    void setstudents(int id)  {
+    void setStudents(int id)  {
+        this.id = id;
+        this.name = "Jos";
+    }
+
+    void setStudents(String name) {
+        this.id = 2000;
+        this.name = name;
+    }
+
+    void  setStudents(int id, String name ) {
         this.id = id;
         this.name = name;
     }
