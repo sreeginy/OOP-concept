@@ -23,4 +23,8 @@ public class Students {
         this.id = id;
         this.name = name;
     }
+    void setdisply() {
+        System.out.println("ID : " + this.id);
+        System.out.println("Name : " + this.name);
+    }
 }
