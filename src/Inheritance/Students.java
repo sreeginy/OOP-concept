@@ -28,3 +28,9 @@ public class Students {
         System.out.println("Name : " + this.name);
     }
 }
+
+class mainStudents {
+    public static void main(String[] args) {
+        
+    }
+}
