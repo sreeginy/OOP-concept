@@ -31,6 +31,5 @@ public class Students {
 
 class mainStudents {
     public static void main(String[] args) {
-        
     }
 }
