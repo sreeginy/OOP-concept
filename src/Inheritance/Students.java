@@ -31,5 +31,19 @@ public class Students {
 
 class mainStudents {
     public static void main(String[] args) {
+        Students s = new Students();
+
+        s.setStudents();
+        s.setdisply();
+
+        Students s2 = new Students();
+        s2.setStudents(6000);
+        s2.setdisply();
+
+        Students s3 = new Students();
+        s3.setStudents("Giny");
+        s3.setdisply();
+
+
     }
 }
