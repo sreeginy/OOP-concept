@@ -44,6 +44,13 @@ class mainStudents {
         s3.setStudents("Giny");
         s3.setdisply();
 
+        Students s4 = new Students();
+        s4.setStudents(5000,"Jos");
+        s4.setdisply();
+
+        Students s5 = new Students();
+        s5.setStudents(2000,"Ram");
+        s5.setdisply();
 
     }
 }
