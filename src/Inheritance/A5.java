@@ -18,7 +18,7 @@ class B5 {
     }
     void display() {
         System.out.println("B5 : " + this.y);
-        super.display();
+//        super.display();
     }
 }
 
