@@ -15,6 +15,15 @@ public class students01 {
     }
 
     students01(String name) {
-
+this.id = 2000;
+this.name = name;
+    }
+    students01(String name, int id) {
+        this.id = id;
+        this.name=name;
+    }
+    students01(int id, String name) {
+        this.id = id;
+        this.name =name;
     }
 }
