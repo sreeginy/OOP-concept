@@ -25,5 +25,15 @@ this.name = name;
     students01(int id, String name) {
         this.id = id;
         this.name =name;
+
+    }
+
+    void  setdisplay() {
+        System.out.println("ID : " + this.id);
+        System.out.println("Name : " + this.name);
+    }
+
+    class mainstudents01{
+        
     }
 }
