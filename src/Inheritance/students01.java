@@ -34,6 +34,22 @@ this.name = name;
     }
 
     class mainstudents01{
-        
+        public static void main(String[] args) {
+
+            students01 s = new students01() ;
+            s.setdisplay();
+
+            students01 s1 = new students01();
+            s1.setdisplay();
+
+            students01 s2 = new students01();
+            s2.setdisplay();
+
+            students01 s3 = new students01();
+            s3.setdisplay();
+
+            students01 s4 = new students01();
+            s4.setdisplay();
+        }
     }
 }
