@@ -19,3 +19,10 @@ public class A7 {
         System.out.println("A7 :" + this.y );
     }
 }
+
+class mainA7 {
+    public static void main(String[] args) {
+        A7 a = new A7(5);
+        a.getx();
+    }
+}
