@@ -6,11 +6,16 @@ public class A7 {
     private int y;
 
     A7() {
-        this.x =10 ;
+        this.x = 10;
 
-        }
+    }
+
     A7(int y) {
-        this.();
-        this.y=y;
+        this();
+        this.y = y;
+    }
+    void getx() {
+        System.out.println("A7 :" + this.x );
+        System.out.println("A7 :" + this.y );
     }
 }
